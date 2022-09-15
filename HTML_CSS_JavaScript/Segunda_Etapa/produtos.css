@@ -1,0 +1,30 @@
+header{
+	background: #BBBBBB; /* Cor de fundo*/
+	padding: 20px 0;
+}
+
+.caixa{
+	position: relative;
+	width: 940px;
+	margin: 0 auto; /*A forma correta para centralizar a margem */
+}
+
+nav{
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li{
+	display: inline; /* forma usada para que a lista esteja "Em Linha" */
+	margin: 0 0 0 15px; /*Espaçamento dado à esquerda para cada item da lista */
+
+}
+
+nav a{
+	text-transform: uppercase; /*Todas as letras maiúsculas */ 
+	color: #000000;
+	font-weight: bold; 
+	font-size: 22px;
+	text-decoration: none; /*Não terá no link o "Sublinhado"*/
+}
